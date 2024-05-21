@@ -2,8 +2,10 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Layout from "./components/containers/Layout";
-import About from './pages/About';
 import Home from './pages/Home';
+import Workouts from './pages/Workouts';
+import Schedule from './pages/Schedule';
+import NoPage from './pages/NoPage';
 
 function App() {
 
@@ -12,7 +14,9 @@ function App() {
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/about" element={<About/>}/>
+          <Route exact path="/schedule" element={<Schedule/>}/>
+          <Route exact path="/workouts" element={<Workouts/>}/>
+          <Route exact path="*" element={<NoPage/>}/>
         </Routes>
       </Layout>
     </Router>

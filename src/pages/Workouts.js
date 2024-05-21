@@ -1,7 +1,7 @@
-export default function Home(){
+export default function Workouts(){
     return(
         <div className="p-8">
-            Home
+            Workouts
         </div>
     )
 }
