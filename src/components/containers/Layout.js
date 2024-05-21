@@ -6,7 +6,7 @@ export default function Layout(props){
         <div class="flex flex-col">
             <div class="flex flex-row h-[calc(100vh)]">
                 <SideBar/>
-                <main class="bg-white w-3/4 overflow-y-auto">
+                <main class="bg-neutral-800 w-4/5 overflow-y-auto">
                     {props.children}
                 </main>
             </div>
