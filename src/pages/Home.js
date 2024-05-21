@@ -1,7 +1,7 @@
 export default function Home(){
     return(
         <div className="text-white neutral-800">
-            <h1 className="px-8 py-4 font-semibold text-3xl border-b-2 border-neutral-400">Dashboard</h1>
+            <h1 className="flex px-8 items-center font-semibold text-3xl h-16 border-b-2 border-neutral-400">Dashboard</h1>
             <div className="grid grid-cols-3 px-8 py-4">
                 {/* SBD Display */}
                 <div className="space-y-3">

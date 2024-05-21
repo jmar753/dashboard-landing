@@ -1,4 +1,4 @@
-import Header from "../navigation/Header"
+// import Header from "../navigation/Header"
 import SideBar from "../navigation/SideBar"
 
 export default function Layout(props){
